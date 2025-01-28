@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+</head>
+<body>
+    <header>
+        <div class="nav-cont">
+            <nav class="navbar">
+                <h1>Learnify</h1>
+                <div class="navbar-link">
+                    <p class="navbar-links"><a href="./home.html">Home</a></p>
+                    <p class="navbar-links"><a href="./Course.html">GetCourse</a></p>
+                    <p class="navbar-links"><a href="./About.html">About</a></p>
+                    <p class="navbar-links"><a href="./contact.html">Contact</a></p>
+        
+                </div>
+            </nav>
+        </div>
+       </header>
+
+    <section id="contact">
+       
+            <h1 class="cnt-h1">Contact Us</h1>
+        
+        <div class="content">
+            <p>Have questions or need assistance? Feel free to reach out to us!</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer >
+        <div class="footer-cnt">
+            <div class="footer">
+                <h3>Follow Me On</h3>
+                <p id="p"><a href="https://github.com/Thamizh2006"><i class="fa-brands fa-github">:Github</i></a></p>
+                <p id="p"><a href="https://www.linkedin.com/in/muthamil-selvan-7995602a6/"><i class="fa-brands fa-linkedin">:LinkedIn</i></p>
+            </div>
+           <div id="cpy">&copy;2024 All Rights Reserved</div> 
+        </div>
+       </footer>
+</body>
+</html>

@@ -1,0 +1,264 @@
+.navbar{
+    background-color: #f2f4f7;
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      box-shadow: rgba(252, 247, 247, 0.493) 0px 3px 8px;
+      position: sticky;
+    top: 0;
+    overflow: hidden;
+    opacity: 10;
+    font-family:cursive;
+    }
+    .p-text{
+      display: none;
+    }
+    .navbar-link{
+      color: orange; 
+      display: flex;
+      column-gap: 60px;
+    }
+    .navbar-links a{
+      text-decoration: none;
+      color:#0078d7; 
+      font-size: 1.1em;
+      transition-duration: 0.5s;
+    }  
+    .navbar-links a:hover{
+      font-size: 1.5rem;
+      color:aquamarine;
+    }
+    h1{
+      font-size: xx-large;
+    }
+    
+  
+  .footer-cnt{
+    width: 100%;
+    height: 250px;
+    color: black;
+    background-color: #f2f4f7;
+  }
+  .footer{
+    font-size: 1.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  #p a{
+    color: black;
+  }
+  #cpy{
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  footer{
+    margin-top: 10%;
+  }
+  .course-cont{
+    height: 800px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f4f7;
+    border-radius: 20px;
+  }
+  .course-cont button{
+    background-color: #ddd;
+    border-radius: 20px;
+  }
+  .course1{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: white;
+  }
+  .course2{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: white;
+  }
+  .course3{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: white;
+  }
+  .course4{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 30px;
+    background-color: white;
+  }
+  button{
+    border-radius:20px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: #f2f4f7;
+    transition:1s;
+    cursor: pointer;
+    
+  }
+  button a{
+    text-decoration: none;
+    color: black;
+  }
+  button:hover{
+    background-color: aquamarine;
+   transform:rotateX(360deg);
+  }
+  video{
+    width: 500px;
+    height: 300px;
+    margin: 80px;
+    margin-left: 130px;
+    border: 6px solid greenyellow;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .cnt-h1 {
+    background: #0078d7;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  .abt-h1{
+    background: #0078d7;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .content {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background: #0078d7;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .entrance-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  
+  
+  .content {
+    position: relative;
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: 2px solid white;
+    color: black;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #f2f4f7;
+    color: #222;
+    border-color: white;
+  }
+  
+  .btn.primary {
+    background: #0078d7;
+    border-color: #0078d7;
+  }
+  
+  .btn.primary:hover {
+    background: white;
+    color: #0078d7;
+  }
